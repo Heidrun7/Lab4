@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
+    <title>Dæmatími 4</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dæmatími 4</h1>
+    </header>
+
+    <main>
+        <div>
+            <p>Halló</p>
+        </div>
+
+    </main>
+
+    <div id="mocha"></div>
+    
+    <script src="https://unpkg.com/chai/chai.js"></script>
+    <script src="https://unpkg.com/mocha/mocha.js"></script>
+    
+    <script>mocha.setup('bdd')</script>
+    <script src="d4.js"></script>
+    <script src="test.js"></script>
+    
+    <script>
+        mocha.run();
+    </script>
+</body>
+
+</html>
