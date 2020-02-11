@@ -1,0 +1,6 @@
+var imgArr = [
+        "https://www.rd.com/wp-content/uploads/2019/04/Hilarious-Dog-Memes-FT.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_h-ziNMhFjutOJNjfFbdllwYUKlTnG4CIMJpck56o9xmU_gkb",
+        "https://pbs.twimg.com/media/CsW0pmxUsAAuvEN.jpg",
+        "https://content.fortune.com/wp-content/uploads/2019/01/boo.jpg"
+    ]
