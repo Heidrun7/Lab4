@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
+    <title>Dæmatími 4</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dæmatími 4</h1>
+    </header>
+    <div id="mocha" style="border: 2px solid black;"></div>
+
+        <form>
+            Input number between 0 and 8: <input type="number" id="p6num">
+            <button type="button" onclick="p6()">Check</button>
+        </form>
+        <div id="evaluate"></div>
+
+        <div>
+            <p id="p7invert" style="background-color: white; color:black;">Invert this text!</p>
+            <button type="button" onclick="p7()">Invert</button>
+        </div>
+
+        <img src="https://images-na.ssl-images-amazon.com/images/I/71kNvlpS9GL._AC_SX466_.jpg" id="p8img" 
+                onmouseover="p8()" style="width: 200px; height: 200px;">
+
+    <script src="https://unpkg.com/chai@4.1.2/chai.js"></script>
+    <script src="https://unpkg.com/mocha@4.0.1/mocha.js"></script>
+
+    <script>mocha.setup('bdd')</script>
+    <script src="app.js"></script>
+    <script src="test/app.test.js"></script>
+
+    <script>
+        mocha.run();
+    </script>
+
+</body>
+
+</html>
