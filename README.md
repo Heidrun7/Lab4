@@ -7,7 +7,7 @@ Write unit tests for problems 1-5 using Mocha/Chai. The code for the tests shoul
 
 and should test the functions already created in the file *node_tests / app.js* (the functions are the same as in the file above, only the app.js file has been slightly edited to accomodate Node).
 To run the tests with Node, do the following steps:
-1.	Install Node.js if you haven‘t already:
+1.	Install Node.js if you haven‘t already:  
 https://nodejs.org/en/download/
 2.	Open the directory (folder) *node_tests* in the terminal and use this command:  
     `npm init`  
