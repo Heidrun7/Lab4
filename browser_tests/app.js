@@ -41,7 +41,9 @@ function p4(mat) {
 }
 
 function p5(circleObj, pointObj) {
-    d = Math.sqrt(Math.abs(pointObj.x - circleObj.center.x) ^ 2 + Math.abs(pointObj.y - circleObj.center.y) ^ 2);
+    d = Math.sqrt(Math.pow((pointObj.x - circleObj.center.x), 2) + Math.pow((pointObj.y - circleObj.center.y), 2));
+    console.log("d is: ", d);
+    console.log("radius is: ", circleObj.radius);
     if(d < circleObj.radius) {
         return true;
     }
